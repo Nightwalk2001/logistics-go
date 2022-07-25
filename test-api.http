@@ -1,0 +1,32 @@
+GET http://81.71.138.9/api/logistics/shippers
+Accept: application/json
+
+###
+GET http://localhost:3000/arrears
+Accept: application/json
+
+###
+GET http://localhost:3000/shippers?page=1
+Accept: application/json
+
+###
+POST http://localhost:3000/shipper
+Content-Type: application/json
+
+{
+  "id": "D22071304",
+  "date": "2022-05-23",
+  "client": "王五",
+  "product": "5+5",
+  "quantity": 70,
+  "area": 80,
+  "money": 7000,
+  "received": 0,
+  "deliveryDate": "2022-05-29",
+  "carNumber": "02",
+  "driver": "李司机",
+  "follower": "李铁"
+}
+
+
+###
